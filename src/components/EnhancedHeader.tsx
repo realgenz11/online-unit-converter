@@ -1,25 +1,25 @@
 export function EnhancedHeader() {
   return (
-    <section className="text-center mb-16 bounce-in">
+    <section id="converter" className="text-center mb-16 pt-20 bounce-in">
       <div className="mb-8">
         <h1 className="hero-title mb-6">
-          Unit Converter
+          Online Unit Converter
         </h1>
-        <p className="text-2xl sm:text-3xl text-muted-foreground max-w-4xl mx-auto font-light leading-relaxed mb-8">
-          The most comprehensive and beautiful unit converter on the web. Convert between hundreds of units across 9 different categories with precision and style.
+        <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-medium mb-8">
+          Professional tool for instant accurate conversions across all units.
         </p>
-        <div className="flex flex-wrap items-center justify-center gap-6 text-lg font-semibold">
-          <div className="flex items-center gap-2 text-primary">
-            <span className="text-2xl">⚡</span>
-            <span>Instant Results</span>
+        <div className="flex flex-wrap items-center justify-center gap-6 text-sm font-semibold">
+          <div className="flex items-center gap-2 text-primary px-4 py-2 rounded-full bg-primary/10">
+            <span className="text-lg">⚡</span>
+            <span>Instant</span>
           </div>
-          <div className="flex items-center gap-2 text-accent">
-            <span className="text-2xl">🎯</span>
-            <span>High Precision</span>
+          <div className="flex items-center gap-2 text-accent px-4 py-2 rounded-full bg-accent/10">
+            <span className="text-lg">🎯</span>
+            <span>Precise</span>
           </div>
-          <div className="flex items-center gap-2 text-success">
-            <span className="text-2xl">📱</span>
-            <span>Mobile Optimized</span>
+          <div className="flex items-center gap-2 text-success px-4 py-2 rounded-full bg-success/10">
+            <span className="text-lg">📱</span>
+            <span>Mobile</span>
           </div>
         </div>
       </div>
