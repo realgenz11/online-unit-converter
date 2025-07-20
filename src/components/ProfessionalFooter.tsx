@@ -129,10 +129,10 @@ export function ProfessionalFooter() {
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             <div className="text-center md:text-left">
               <p className="text-background/60 text-sm">
-                © 2025 Online Unit Converter Pro. Built for precision, designed for professionals.
+                © 2024 Online Unit Converter. Made by Aayan Sharma. All rights reserved.
               </p>
               <p className="text-background/50 text-xs mt-1">
-                200+ units across 12 categories • Mobile optimized • AdSense ready
+                250+ units across 12 categories • Mobile optimized • Always free
               </p>
             </div>
             <div className="flex items-center space-x-6 text-sm">

@@ -38,7 +38,7 @@ export function SimpleConverter({ units, categoryId }: UnitConverterProps) {
   };
 
   return (
-    <div className="converter-card fade-in max-w-3xl mx-auto">
+    <div className="converter-card max-w-3xl mx-auto">
       {/* From Input */}
       <div className="mb-8">
         <div className="flex flex-col lg:flex-row gap-4">

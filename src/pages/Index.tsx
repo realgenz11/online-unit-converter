@@ -4,7 +4,7 @@ import { EnhancedHeader } from '@/components/EnhancedHeader';
 import { CategorySelector } from '@/components/CategorySelector';
 import { SimpleConverter } from '@/components/SimpleConverter';
 import { HowToUseSection } from '@/components/HowToUseSection';
-import { EnhancedBlogSection } from '@/components/EnhancedBlogSection';
+import { NewBlogSection } from '@/components/NewBlogSection';
 import { EducationalSection } from '@/components/EducationalSection';
 import { ProfessionalFooter } from '@/components/ProfessionalFooter';
 import { conversionCategories } from '@/lib/professional-conversions';
@@ -47,7 +47,7 @@ const Index = () => {
       />
 
       <HowToUseSection />
-      <EnhancedBlogSection />
+      <NewBlogSection />
       <EducationalSection />
       <ProfessionalFooter />
     </div>
